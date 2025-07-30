@@ -12,12 +12,11 @@ mike = Adopter.create(name: "Mike Williams")
 lisa = Adopter.create(name: "Lisa Chen")
 david = Adopter.create(name: "David Rodriguez")
 
-# Create adoptions
-Adoption.create(pet_name: "Fluffy", adoption_fee: 75, adopter: sarah, shelter: happy_paws)
-Adoption.create(pet_name: "Max", adoption_fee: 100, adopter: mike, shelter: rescue_me)
-Adoption.create(pet_name: "Bella", adoption_fee: 50, adopter: lisa, shelter: second_chance)
-Adoption.create(pet_name: "Charlie", adoption_fee: 125, adopter: david, shelter: city_animal)
-Adoption.create(pet_name: "Luna", adoption_fee: 75, adopter: sarah, shelter: rescue_me)
-Adoption.create(pet_name: "Cooper", adoption_fee: 100, adopter: mike, shelter: happy_paws)
+# ***************************************************************
+# * TODO: create adoptions! Remember, an adoption belongs to a *
+# * adopter and an adoption belongs to a shelter.             *
+# ***************************************************************
+# Create adoptions Here
 
 puts "✅ Done seeding!"
+
